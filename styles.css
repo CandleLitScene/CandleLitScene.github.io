@@ -67,3 +67,19 @@ footer {
     display: flex;
     padding: 20px;
 }
+
+@media only screen and (min-width: 600px) {
+    section.brideshead-section.header {
+        text-align: center;
+    }
+    
+    section.brideshead-section.break {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    section.brideshead-section.body{
+        text-align: center;
+        text-align: left;
+    }
+} 
