@@ -42,6 +42,10 @@ section.brideshead-section.body{
     margin: 0% 20%;
 }
 
+span.blockspam {
+    display: none;
+  }
+  
 footer {
     padding: 20px;
     display: flex;
