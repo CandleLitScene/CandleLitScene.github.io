@@ -33,7 +33,7 @@ section {
 
 section.brideshead-section.header {
     text-align: center;
-    margin: 0% 20%;
+    margin: 0% 25%;
 }
 
 section.brideshead-section.body{
@@ -45,7 +45,7 @@ section.brideshead-section.body{
 span.blockspam {
     display: none;
   }
-  
+
 footer {
     padding: 20px;
     display: flex;
