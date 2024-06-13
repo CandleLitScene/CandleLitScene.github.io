@@ -27,8 +27,21 @@ section {
     background: white;
     color: black;
     padding: 20px;
-    
+    line-height: 1.8;
+    /* font-size: 1.25em; */
 }
+
+section.brideshead-section.header {
+    text-align: center;
+    margin: 0% 20%;
+}
+
+section.brideshead-section.body{
+    text-align: center;
+    text-align: left;
+    margin: 0% 20%;
+}
+
 footer {
     padding: 20px;
     display: flex;
