@@ -44,6 +44,12 @@ section.brideshead-section.header {
     margin: 0% 25%;
 }
 
+section.brideshead-section.break {
+    text-align: center;
+    margin: 0% 25%;
+    font-size: 1.5em;
+}
+
 section.brideshead-section.body{
     text-align: center;
     text-align: left;
