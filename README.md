@@ -1,1 +1,1 @@
-I am trying to make a website for my own personal use.
+I am making a website for my own personal use.
