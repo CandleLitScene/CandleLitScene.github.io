@@ -84,7 +84,7 @@ table, th, td {
 
   
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
     section.brideshead-section.header {
         text-align: center;
         margin: 0%;
