@@ -56,6 +56,13 @@ section.brideshead-section.body{
     margin: 0% 20%;
 }
 
+section.brideshead-section.list {
+    text-align: center;
+    text-align: left;
+    margin: 0% 20%;
+    line-height: 1;
+}
+
 span.blockspam {
     display: none;
   }
