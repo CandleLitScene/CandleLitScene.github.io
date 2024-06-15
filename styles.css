@@ -128,4 +128,9 @@ section.images {
       margin-right: auto;
       width: 90%;
     }
+
+    section.brideshead-section.footnote {
+        overflow-wrap: break-word
+
+    }
 } 
