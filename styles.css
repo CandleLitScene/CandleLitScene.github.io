@@ -56,6 +56,10 @@ section.brideshead-section.body{
     margin: 0% 20%;
 }
 
+section.brideshead-section.body {
+    counter-reset: section;
+}
+
 section.brideshead-section.list {
     text-align: center;
     text-align: left;
@@ -67,6 +71,7 @@ section.brideshead-section.footnotes {
     text-align: center;
     text-align: left;
     margin: 0% 20%;
+    overflow-wrap: break-word
 }
 
 a.footnote:visited, a.footnote:link {
@@ -134,3 +139,4 @@ section.images {
 
     }
 } 
+
