@@ -126,6 +126,12 @@ section.images {
         margin: 0%;
     }
 
+    section.brideshead-section.list{
+        text-align: center;
+        text-align: left;
+        margin: 0%;
+    }
+
     section.images {
         text-align: center;
         display: block;
