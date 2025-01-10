@@ -96,6 +96,10 @@ table, th, td {
     margin: 0% 10%;
   }
 
+  table.latin, th.latin, td.latin {
+    border: none;
+  }
+
 img {
     width: 100%;
 }
