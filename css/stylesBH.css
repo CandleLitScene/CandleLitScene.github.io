@@ -36,7 +36,7 @@ section {
     color: black;
     padding: 20px;
     line-height: 1.8;
-    /* font-size: 1.25em; */
+    font-size: 1.1em;
 }
 
 section.brideshead-section.header {
@@ -113,6 +113,10 @@ section.images {
 
 
 @media only screen and (max-width: 1000px) {
+    section {
+        font-size: 1em;
+    }
+    
     section.brideshead-section.header {
         text-align: center;
         margin: 0%;
