@@ -113,15 +113,16 @@ img {
     width: 100%;
 }
 
-section.images {
+figure {
     text-align: center;
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 65%;
 }
 
 figcaption {
+    text-align: center;
     font-size: 0.9em;
 }
 

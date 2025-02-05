@@ -7,7 +7,6 @@
     <title>Brideshead Companion Annotations</title>
     <link rel="stylesheet" href="/css/stylesBH.css">
     <script src="/Components/BHheader.js" type="text/javascript" defer>
-        var footnum = 0; 
     </script>
 </head>
 
@@ -95,26 +94,17 @@
     <p><strong>289 (304) lay-brother</strong> <br />
         A man who has taken vows in a monastery, but does not take part in the full liturgical programme. He serves as an ancillary or manual worker.</p>
     
-    <p><strong>289 (304) absinthe</strong> <br />
+    <p><strong>289 (304) absinthe</strong><span id="cap1"></span><br />
         A liqueur made from wormwood and alcohol, with aniseed or fennel added to try to disguise the foul taste. It is naturally green but turns cloudy and off-white with water, which was usually added by dripping it through a cube of sugar in a desperate attempt to sweeten the drink. Absinthe became very popular in France in the second half of the nineteenth century and had a certain cachet among decadents and romantics everywhere, partly because it was thought to make you drunk very quickly, to give you hallucinations if you were lucky, and to kill you in time. A cult developed in France : the drink was known as <em>la fée verte</em> (the green fairy) and the cocktail hour became <em>l’heure verte</em>. Its more frightening characteristics led to a scare which resulted in the French government banning the sale of absinthe in 1915. At one time it was banned in the United States and most of western Europe (though not in Britain, where it has only ever had a small cult following). </p>
         <p>The official attitude towards the drink has changed since about 1995. Scientific tests have proved that it is not toxic as was once believed, and that it does not cause hallucinations. Its reputation was based on foolish if frightening scares rather than the reality. Several countries have again legalised it, and even in the United States the first legally available absinthe was approved for sale in 2007. Sebastian is nevertheless in a parlous state if he is reduced to drinking absinthe in quantity.</p>
     
-        <section class="images">
         <figure>
-        <img src="images/Absinthe.jpg" alt="L'Absinthe, by Edgar Degas, 1876">
-        <figcaption id="Arcadia1">
+        <img src="images/Absinthe.jpg" alt="L'Absinthe, by Edgar Degas, 1876.">
+        <figcaption>
+        [<a class="link" href="/Brideshead/twitch4.html#foot1">1</a>]
+        L'Absinthe, by Edgar Degas, 1876.
         </figcaption>
-        <script>
-        var foot = document.createElement('a');
-        foot.setAttribute('id', `footnote-${++footnum}-ref`);
-        foot.setAttribute('href', `#footnote-${footnum}`);
-        foot.textContent = `[${footnum}]`
-        var caption = "L'Absinthe, by Edgar Degas, 1876.";
-        var result = caption.concat(foot.outerHTML);
-        document.getElementById("Arcadia1").innerHTML = result;
-        </script>
         </figure>
-        </section>
 
     <p><strong>290 (304) Central Africa</strong> <br />
         The Superior dwelt in the jungle regions of Africa, or just possibly in a desert area (or both). He has come to a much easier climate at the end of his life.</p>
@@ -162,30 +152,15 @@
     <section class="brideshead-section body">
         <a class="link" href="brideshead.html">Back to Brideshead Main Page</a>
     </section>
-
+<hr>
     <section class="brideshead-section footnote">
-        <script>
-            var footnum = 0;
-            console.log(footnum)
-        </script>
+        <p>Hint: Press the "⇧" to return to where you were on the page!</p>
 
-        <p id="FArcadia1">
+        <p id="foot1">
+        <a class="link" href="/Brideshead/twitch4.html#cap1">⇧</a>[1] By Edgar Degas - Google Art Project: Home - pic Maximum resolution., Public Domain,
+        <a class="link" href="https://commons.wikimedia.org/w/index.php?curid=20303082" target="_blank">https://commons.wikimedia.org/w/index.php?curid=20303082</a>
         </p>
-        <script>
-        var endfoot = document.createElement('a');
-        endfoot.setAttribute('id', `footnote-${++footnum}`);
-        endfoot.setAttribute('href', `#footnote-${footnum}-ref`)
-        endfoot.textContent = '⇧';
-        var caption = `[${footnum}] By Edgar Degas - Google Art Project: Home - pic Maximum resolution., Public Domain, `;
-        var attribution = document.createElement('a');
-        attribution.setAttribute('class', 'link');
-        attribution.setAttribute('href', "https://commons.wikimedia.org/w/index.php?curid=20303082");
-        attribution.setAttribute('target', '_blank');
-        attribution.textContent = " https://commons.wikimedia.org/w/index.php?curid=20303082"
-        var endResult = caption.concat(attribution.outerHTML).concat(endfoot.outerHTML)
-        document.getElementById("FArcadia1").innerHTML = endResult;
-        </script>
-
+    
     </section>
 
     <footer>
