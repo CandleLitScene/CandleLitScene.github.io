@@ -13,7 +13,8 @@ class Header extends HTMLElement {
                 <li><a class="link" href="../HarryPartch/harry_partch.html">Harry Partch</a></li>
             </ul> 
         </nav>
-        <h1>Candle-Lit Scene | Homepage</h1>
+        <h1>Candle-Lit Scene | Brideshead</h1>
+        <p>This site is a continuous work in progress!</p>
     </header>
     `;
   }
