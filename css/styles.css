@@ -130,5 +130,9 @@ section.images {
         overflow-wrap: break-word
 
     }
+
+    p.index {
+        margin-right: 0%;
+    }
 } 
 
