@@ -9,11 +9,11 @@ class Header extends HTMLElement {
         <nav>
             <ul>
                 <li><a class="link" href="/index.html">Homepage</a></li>
-                <li><a class="link" href="Brideshead/brideshead.html">Brideshead Revisited</a></li>
-                <li><a class="link" href="../Pentiment/Pentiment.html">Pentiment</a></li>
+                <li><a class="link" href="../Brideshead/brideshead.html">Brideshead Revisited</a></li>
+                <li><a class="link" href="Pentiment/Pentiment.html">Pentiment</a></li>
             </ul> 
         </nav>
-        <h1>Candle-Lit Scene | Brideshead</h1>
+        <h1>Candle-Lit Scene | Pentiment</h1>
         <p>This site is a continuous work in progress!</p>
     </header>
     `;
