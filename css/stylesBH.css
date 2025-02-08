@@ -155,16 +155,22 @@ figcaption {
         margin: 0%;
     }
 
-    section.images {
-        text-align: center;
-        display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 90%;
-    }
-
     section.brideshead-section.footnote {
         overflow-wrap: break-word
 
     }
 } 
+
+@media only screen and (max-width: 500px) {
+
+
+    figure {
+        text-align: center;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+
+}

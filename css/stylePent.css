@@ -167,13 +167,7 @@ figcaption {
 
 @media only screen and (max-width: 1000px) {
   
-    section.images {
-        text-align: center;
-        display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 90%;
-    }
+
 
     section.bib {
         text-align: center;
@@ -198,7 +192,7 @@ figcaption {
     }
 } 
 
-@media only screen and (max-width: 409px) {
+@media only screen and (max-width: 500px) {
 
     div.profile {
         width: 100%;
@@ -207,4 +201,24 @@ figcaption {
         vertical-align: middle;
     }
 
+    figcaption {
+        margin-left: 5%;
+      margin-right: 5%;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    img {
+        width: 90%;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img.gif {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 80%;
+    }
 }
