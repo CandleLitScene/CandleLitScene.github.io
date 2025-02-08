@@ -15,6 +15,9 @@ body {
     font-size: 1.1em;
 
 }
+
+strong { font-weight: bold; }
+
 header {
     background: black;
     color: orange;
@@ -34,6 +37,15 @@ div {
     margin: auto;
 
 }
+
+hr {
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: double;
+    border-width: 4px;
+}
+
 section {
     background: white;
     color: black;
@@ -79,7 +91,10 @@ table, th, td {
   }
 
 img {
-    width: 100%;
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.main {
@@ -89,6 +104,13 @@ img.main {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 50%;
+}
+
+img.gif {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 30%;
 }
 
 div.profile {
@@ -124,6 +146,25 @@ p.spoiler {
     line-height: 1.8;
 }
 
+p.index {
+    text-align: left;
+    margin: 0% 25%;
+    line-height: 1.8;
+}
+
+section.Pentfoot {
+    text-align: left;
+    margin: 0% 5%;
+    overflow-wrap: break-word
+}
+
+figcaption {
+    margin-left: 25%;
+  margin-right: 25%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
 @media only screen and (max-width: 1000px) {
   
     section.images {
@@ -134,7 +175,13 @@ p.spoiler {
       width: 90%;
     }
 
-    section.normal-body {
+    section.bib {
+        text-align: center;
+        text-align: left;
+        margin: 5%;
+    }
+
+    p.spoiler {
         text-align: center;
         text-align: left;
         margin: 5%;
@@ -143,6 +190,11 @@ p.spoiler {
 
     p.index {
         margin-right: 0%;
+    }
+
+    section.brideshead-section.footnote {
+        overflow-wrap: break-word
+
     }
 } 
 
