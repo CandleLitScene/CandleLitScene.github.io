@@ -110,6 +110,22 @@ section.images {
   width: 70%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+  }
+
+  .clouds {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+  }
+
 
 @media only screen and (max-width: 1000px) {
   
@@ -131,6 +147,22 @@ section.images {
     p.index {
         margin-right: 0%;
     }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 70%;
+      }
+
+      .clouds {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+      }
 } 
 
 @media only screen and (max-width: 409px) {
@@ -141,5 +173,22 @@ section.images {
         object-fit: cover;
         vertical-align: middle;
     }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 75%;
+        width: 90%;
+      }
+
+      .clouds {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 120%;
+      }
 
 }
