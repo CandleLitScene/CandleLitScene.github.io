@@ -12,6 +12,8 @@ class Header extends HTMLElement {
                 <li><a class="link" href="../Brideshead/brideshead.html">Brideshead Revisited</a></li>
                 <li><a class="link" href="Pentiment/Pentiment.html">Pentiment</a></li>
                 <li><a class="link" href="/My Work/MyWork.html">My Work</a></li>
+                <li><a class="link" href="/Durer/durer.html">Dürer</a></li>
+
             </ul> 
         </nav>
         <h1>Candle-Lit Scene | Clouds</h1>
