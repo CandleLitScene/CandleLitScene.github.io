@@ -144,6 +144,7 @@ section.Pentfoot {
 	font-size: .9em;
 	padding: .5em;
 	margin: 1em -15em 0 1em;
+    position: relative; bottom: 100px
 	}
 	
 .sidenote_link {
@@ -220,6 +221,7 @@ section.Pentfoot {
         font-size: .9em;
         padding: .5em;
         margin: 1em 0em 0 1em;
+        position: relative; bottom: 0px;
         }
 
         .sidenoteBox {
@@ -292,5 +294,9 @@ section.Pentfoot {
         margin: 0% 10%;
         border: none;
       }
+
+      .sidenoteInner { 
+        font-size: .7em;
+        }
     
 }
