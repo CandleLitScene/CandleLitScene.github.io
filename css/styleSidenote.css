@@ -76,6 +76,11 @@ img {
     width: 100%;
 }
 
+img.inline {
+    width: 10%;
+    vertical-align: middle;
+}
+
 figure {
     text-align: center;
     display: block;
@@ -144,7 +149,7 @@ section.Pentfoot {
 	font-size: .9em;
 	padding: .5em;
 	margin: 1em -15em 0 1em;
-    position: relative; bottom: 100px
+    position: relative; bottom: 50px
 	}
 	
 .sidenote_link {
@@ -247,6 +252,11 @@ section.Pentfoot {
     section.brideshead-section.footnote {
         overflow-wrap: break-word
 
+    }
+
+    img.inline {
+        width: 20%;
+        vertical-align: middle;
     }
 } 
 
