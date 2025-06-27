@@ -121,6 +121,11 @@ img.gif {
     width: 60%;
 }
 
+img.thumb {
+    width: 40%;
+  
+  }
+
 div.profile {
     width: 100%;
     max-width: 150px;
@@ -199,6 +204,11 @@ figcaption {
         overflow-wrap: break-word
 
     }
+
+    img.thumb {
+        width: 80%;
+      
+      }
 } 
 
 @media only screen and (max-width: 500px) {
@@ -244,6 +254,11 @@ figcaption {
         border:1px solid black;
         margin: 0% 10%;
         border: none;
+      }
+
+      img.thumb {
+        width: 100%;
+      
       }
     
 }
