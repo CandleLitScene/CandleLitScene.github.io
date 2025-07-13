@@ -79,6 +79,10 @@ footer {
     padding: 20px;
 }
 
+blockquote {
+  text-align: justify;
+}
+
 table, th, td {
     text-align: center;
     text-align: left;
