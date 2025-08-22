@@ -9,10 +9,10 @@ class Header extends HTMLElement {
         <nav>
             <ul>
                 <li><a class="link" href="/index.html">Homepage</a></li>
-                <li><a class="link" href="../Brideshead/brideshead.html">Brideshead Revisited</a></li>
-                <li><a class="link" href="Pentiment/Pentiment.html">Pentiment</a></li>
-                <li><a class="link" href="/My Work/MyWork.html">My Work</a></li>
-                <li><a class="link" href="/Durer/durer.html">Dürer</a></li>
+                <li><a class="link" href="../Brideshead.html">Brideshead Revisited</a></li>
+                <li><a class="link" href="../Pentiment.html">Pentiment</a></li>
+                <li><a class="link" href="/MyWork.html">My Work</a></li>
+                <li><a class="link" href="/Durer.html">Dürer</a></li>
             </ul> 
         </nav>
         <h1>Candle-Lit Scene | Homepage</h1>
